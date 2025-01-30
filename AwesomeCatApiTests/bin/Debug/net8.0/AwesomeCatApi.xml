@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AwesomeCatApi</name>
+    </assembly>
+    <members>
+        <member name="M:AwesomeCatApi.Controllers.CatsController.FetchCats">
+            <summary>
+            Fetches new cats from The Cat API and stores them in the database
+            </summary>
+        </member>
+        <member name="M:AwesomeCatApi.Controllers.CatsController.GetCat(System.Int32)">
+            <summary>
+            Retrieves a specific cat by its database ID
+            </summary>
+        </member>
+        <member name="M:AwesomeCatApi.Controllers.CatsController.GetCats(System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves a paginated list of cats with optional tag filtering
+            </summary>
+        </member>
+    </members>
+</doc>
